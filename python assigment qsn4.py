@@ -1,3 +1,7 @@
+'''A traffic system records the average speed of vehicles every hour for 12 hours.
+Write a program that: Reads 12 speed values (floats). Calculates the average speed. Displays whether traffic flow was “Slow” (avg < 40), “Normal” (40–80), or “Fast” (avg > 80).
+Concepts: list input, loop, conditional check, average calculation.'''
+
 # Program to record and analyze speeds over 12 hours
 
 speeds = [12]   
@@ -23,3 +27,4 @@ else:
 print("Traffic Report ")
 print("Average Speed:", average_speed)
 print("Traffic Flow:", flow)
+
