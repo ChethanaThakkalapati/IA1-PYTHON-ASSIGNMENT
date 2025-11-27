@@ -1,3 +1,9 @@
+'''5.	Design a module math_utils.py with functions:
+factorial(n)
+is_prime(n)
+gcd(a,b)
+Include exception handling for invalid or negative inputs. Import and test these functions from another script.
+Concepts: Loops, recursion, functions, input validation.'''
 
 def factorial(n):
     if not isinstance(n, int):
@@ -46,3 +52,4 @@ print("Is Prime?:", is_prime(p))
 a = int(input("Enter first number for GCD: "))
 b = int(input("Enter second number for GCD: "))
 print("GCD:", gcd(a, b))
+
